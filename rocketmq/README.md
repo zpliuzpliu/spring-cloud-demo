@@ -1,1 +1,1 @@
-#Spring cloud stream的有yml配置读取有问题！！！
+###Spring cloud stream的有yml配置读取有问题！！！使用.properties
