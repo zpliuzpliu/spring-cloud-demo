@@ -1,0 +1,1 @@
+#Spring cloud stream的有yml配置读取有问题！！！

@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    zookeeper:
+      enabled: true
+      connect-string: 127.0.0.1:2181
+  application:
+    name: dubbo-demo-provider
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8088
+
+dubbo:
+  scan:
+    base-packages: top.zpliu.cloud.dubbo.provider
+  protocols:
+    dubbo:
+      name: dubbo
+      port: -1
+  registry:
+    address: spring-cloud://localhost
+

@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: client-feign-api
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+server:
+  port: 8070
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000  # 指定Feign客户端连接提供者的超时时限   取决于网络环境
+        readTimeout: 5000   # 指定Feign客户端从请求到获取到提供者给出的响应的超时时限  取决于业务逻辑运算时间
+  compression:
+    request:
+      enabled: true   # 开启对请求的压缩
+      mime-types: text/xml, application/xml
+      min-request-size: 2048   # 指定启用压缩的最小文件大小
+    response:
+      enabled: true   # 开启对响应的压缩

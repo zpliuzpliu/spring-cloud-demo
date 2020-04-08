@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/feign/client-feign-api/client-feign-api.iml" filepath="$PROJECT_DIR$/feign/client-feign-api/client-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/client-feign-provider/client-feign-provider.iml" filepath="$PROJECT_DIR$/feign/client-feign-provider/client-feign-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/dubbo/dubbo-demo-api/dubbo-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo-demo-consume/dubbo-demo-consume.iml" filepath="$PROJECT_DIR$/dubbo/dubbo-demo-consume/dubbo-demo-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/dubbo/dubbo-demo-provider/dubbo-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq-consume/rocketmq-consume.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq-consume/rocketmq-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq/rocketmq-produce/rocketmq-produce.iml" filepath="$PROJECT_DIR$/rocketmq/rocketmq-produce/rocketmq-produce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" />
+    </modules>
+  </component>
+</project>
